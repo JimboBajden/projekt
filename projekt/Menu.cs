@@ -11,10 +11,10 @@ namespace projekt
     {
         public Menu()
         {
-
+            //SQLiteConnection connection = new SQLiteConnection("data source=C:\\Users\\przemyslaw.curzydlo\\Desktop\\rzecz.db; version=3");
             //SQLiteConnection connection = new SQLiteConnection("data source=C:\\Users\\Przemek Curzydło4tp\\Desktop\\rzecz.db; version=3");
             SQLiteConnection connection = new SQLiteConnection("data source=C:\\Users\\jimbo\\Desktop\\rzecz.db; version=3");
-        
+
             connection.Open();
             while (true)
             {
@@ -27,7 +27,7 @@ namespace projekt
                 Console.WriteLine("2: dodaj osoby");
                 Console.WriteLine("3: usuń osoby");
                 Console.WriteLine("4: wyszukaj osoby");
-                Console.WriteLine("5: modyfikuj rekord🌱");
+                Console.WriteLine("5: modyfikuj rekord");
                 string option = Console.ReadLine();
                 Console.Clear();
 

@@ -30,6 +30,7 @@ namespace projekt
             Console.WriteLine("4: numer telefonu");
             Console.WriteLine("5: adres");
             Console.WriteLine("6: Wyszukaj");
+            Console.WriteLine("E: wyjdz");
             string opcja = Console.ReadLine();
 
             switch (opcja)
@@ -50,6 +51,10 @@ namespace projekt
                     adres();
                 break;
                 case "6":
+                    if(command.CommandText == "SELECT * FROM osoby WHERE ")
+                    {
+                        command.CommandText = "SELECT * FROM osoby";
+                    }
                     var reader1 = command.ExecuteReader();
                     Console.WriteLine("tabela osoby");
                     while (reader1.Read())
@@ -58,9 +63,12 @@ namespace projekt
                         + reader1.GetString(3) + " " + reader1.GetString(4));
                     }
                     reader1.Close();
-                    Console.WriteLine("naciśny coś aby kontynuować");
+                    Console.WriteLine("nacisnij coś");
                     Console.ReadKey();
                     break;
+                case "e":
+                    Console.Clear();
+                    return;
             }
 
         }
@@ -79,7 +87,8 @@ namespace projekt
             Console.WriteLine("podaj id: ");string id = Console.ReadLine();
             command.CommandText += $" id = {id} ";
             check = true;
-            command.ExecuteNonQuery();
+            PoCzym();
+
         }
 
         private void imie()
@@ -111,7 +120,7 @@ namespace projekt
                 command.CommandText += " AND  ";
             }
             Console.WriteLine("podaj numer (albo fragment + '%'): "); string numer = Console.ReadLine();
-            command.CommandText += $" numerTelefonu LIKE('{numer}') ";
+            command.CommandText += $"numerTelefonu LIKE '{numer}' ";
             check = true;
             PoCzym();
         }

@@ -16,6 +16,8 @@ namespace projekt
             Console.Write("imie: "); string imie = Console.ReadLine();
             Console.WriteLine("nazwisko: "); string nazwisko = Console.ReadLine();
             Console.WriteLine("numer telefonu: "); string numer = Console.ReadLine();
+            if (numer.Length > 9) { numer = numer.Substring(0,9); }
+           
             Console.WriteLine("adres: "); string adres = Console.ReadLine();
 
             command2.CommandText = $"insert into osoby (imie , nazwisko , numerTelefonu , adres) values ('{imie}' , '{nazwisko}' , '{numer}' , '{adres}')";

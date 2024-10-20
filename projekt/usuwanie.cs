@@ -25,6 +25,7 @@ namespace projekt
             Console.WriteLine("3: nazwisko");
             Console.WriteLine("4: numer telefonu");
             Console.WriteLine("5: adres");
+            Console.WriteLine("E: wyjscie ");
             string option = Console.ReadLine();
 
             switch (option) {
@@ -43,6 +44,9 @@ namespace projekt
                 case "5":
                     adres();
                 break;
+                case "e":
+                    Console.Clear();
+                    return;
             }
             
         }
