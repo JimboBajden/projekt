@@ -46,3 +46,35 @@ C:\Users\jimbo\Desktop\projekt\projekt\obj\Debug\projekt.csproj.CoreCompileInput
 C:\Users\jimbo\Desktop\projekt\projekt\obj\Debug\projekt.csproj.Up2Date
 C:\Users\jimbo\Desktop\projekt\projekt\obj\Debug\projekt.exe
 C:\Users\jimbo\Desktop\projekt\projekt\obj\Debug\projekt.pdb
+C:\Users\Przemek Curzydło4tp\Desktop\projekt-master\projekt\bin\Debug\projekt.exe.config
+C:\Users\Przemek Curzydło4tp\Desktop\projekt-master\projekt\bin\Debug\projekt.exe
+C:\Users\Przemek Curzydło4tp\Desktop\projekt-master\projekt\bin\Debug\projekt.pdb
+C:\Users\Przemek Curzydło4tp\Desktop\projekt-master\projekt\bin\Debug\EntityFramework.dll
+C:\Users\Przemek Curzydło4tp\Desktop\projekt-master\projekt\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Przemek Curzydło4tp\Desktop\projekt-master\projekt\bin\Debug\System.Data.SQLite.dll
+C:\Users\Przemek Curzydło4tp\Desktop\projekt-master\projekt\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Przemek Curzydło4tp\Desktop\projekt-master\projekt\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Przemek Curzydło4tp\Desktop\projekt-master\projekt\bin\Debug\EntityFramework.xml
+C:\Users\Przemek Curzydło4tp\Desktop\projekt-master\projekt\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Przemek Curzydło4tp\Desktop\projekt-master\projekt\bin\Debug\System.Data.SQLite.xml
+C:\Users\Przemek Curzydło4tp\Desktop\projekt-master\projekt\obj\Debug\projekt.csproj.AssemblyReference.cache
+C:\Users\Przemek Curzydło4tp\Desktop\projekt-master\projekt\obj\Debug\projekt.csproj.CoreCompileInputs.cache
+C:\Users\Przemek Curzydło4tp\Desktop\projekt-master\projekt\obj\Debug\projekt.csproj.Up2Date
+C:\Users\Przemek Curzydło4tp\Desktop\projekt-master\projekt\obj\Debug\projekt.exe
+C:\Users\Przemek Curzydło4tp\Desktop\projekt-master\projekt\obj\Debug\projekt.pdb
+C:\Users\jimbo\Desktop\projekt-master\projekt\bin\Debug\projekt.exe.config
+C:\Users\jimbo\Desktop\projekt-master\projekt\bin\Debug\projekt.exe
+C:\Users\jimbo\Desktop\projekt-master\projekt\bin\Debug\projekt.pdb
+C:\Users\jimbo\Desktop\projekt-master\projekt\bin\Debug\EntityFramework.dll
+C:\Users\jimbo\Desktop\projekt-master\projekt\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jimbo\Desktop\projekt-master\projekt\bin\Debug\System.Data.SQLite.dll
+C:\Users\jimbo\Desktop\projekt-master\projekt\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\jimbo\Desktop\projekt-master\projekt\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\jimbo\Desktop\projekt-master\projekt\bin\Debug\EntityFramework.xml
+C:\Users\jimbo\Desktop\projekt-master\projekt\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jimbo\Desktop\projekt-master\projekt\bin\Debug\System.Data.SQLite.xml
+C:\Users\jimbo\Desktop\projekt-master\projekt\obj\Debug\projekt.csproj.AssemblyReference.cache
+C:\Users\jimbo\Desktop\projekt-master\projekt\obj\Debug\projekt.csproj.CoreCompileInputs.cache
+C:\Users\jimbo\Desktop\projekt-master\projekt\obj\Debug\projekt.csproj.Up2Date
+C:\Users\jimbo\Desktop\projekt-master\projekt\obj\Debug\projekt.exe
+C:\Users\jimbo\Desktop\projekt-master\projekt\obj\Debug\projekt.pdb

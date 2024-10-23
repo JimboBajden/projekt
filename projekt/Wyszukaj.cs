@@ -30,52 +30,55 @@ namespace projekt
             Console.WriteLine("4: numer telefonu");
             Console.WriteLine("5: adres");
             Console.WriteLine("6: Wyszukaj");
-            Console.WriteLine("E: wyjdz");
+            Console.WriteLine("8: wyjdz");
             string opcja = Console.ReadLine();
 
             switch (opcja)
             {
                 case "1":
                     Id();
-                break;
+                    break;
                 case "2":
-                    imie(); 
-                break;
+                    imie();
+                    break;
                 case "3":
-                    nazwisko(); 
-                break;
+                    nazwisko();
+                    break;
                 case "4":
                     numer();
-                break;
+                    break;
                 case "5":
                     adres();
-                break;
+                    break;
                 case "6":
-                    if(command.CommandText == "SELECT * FROM osoby WHERE ")
+                    if (command.CommandText == "SELECT * FROM osoby WHERE ")
                     {
                         command.CommandText = "SELECT * FROM osoby";
                     }
                     var reader1 = command.ExecuteReader();
                     Console.WriteLine("tabela osoby");
+                    int i = 0;
                     while (reader1.Read())
                     {
+                        i++;
                         Console.WriteLine(reader1.GetInt32(0) + " " + reader1.GetString(1) + " " + reader1.GetString(2) + " "
                         + reader1.GetString(3) + " " + reader1.GetString(4));
                     }
+                    if (i == 0) { Console.WriteLine("nie ma takiego / takich"); }
                     reader1.Close();
                     Console.WriteLine("nacisnij coś");
                     Console.ReadKey();
                     break;
-                case "e":
+                case "8":
                     Console.Clear();
                     return;
             }
 
         }
 
-        public SQLiteDataReader GiveReader()
+        public SQLiteCommand GiveCommand()
         {
-            return command.ExecuteReader();
+            return command;
         }
 
         private void Id()
